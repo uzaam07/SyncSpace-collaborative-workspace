@@ -12,6 +12,7 @@ node_modules/
 dist/
 build/
 *.db
+*.sqlite
 *.sqlite3
 .DS_Store
 Thumbs.db
