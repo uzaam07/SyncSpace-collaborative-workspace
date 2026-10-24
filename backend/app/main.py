@@ -13,9 +13,16 @@ from app.security import hash_password, verify_password, create_access_token, ge
 from app.realtime import manager
 
 app = FastAPI(title=settings.app_name, description="Real-time collaborative workspace API", version="1.0.0")
-app.add_middleware(CORSMiddleware, allow_origins=settings.allowed_origins, allow_credentials=True,
-                   allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-                   allow_headers=["Authorization", "Content-Type"])
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://syncspace-web-9hfs.onrender.com",
+        "http://localhost:5173",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.on_event("startup")
 def startup():
