@@ -6,8 +6,6 @@ SyncSpace is a full-stack collaborative workspace for organizing projects, manag
 
 - **Frontend:** https://syncspace-web-9hfs.onrender.com/
 - **Backend API:** https://syncspace-api-g4iu.onrender.com/
-- **Interactive API docs:** https://syncspace-api-g4iu.onrender.com/docs
-- **GitHub repository:** https://github.com/uzaam07/SyncSpace-collaborative-workspace
 
 > **Important — activate the backend first:** The backend runs on a free hosting service and may sleep after inactivity. First open the [Backend API](https://syncspace-api-g4iu.onrender.com/) and wait for it to respond. Then open the [Frontend](https://syncspace-web-9hfs.onrender.com/) and use the application. The first request may take a little while while the backend wakes up. Authentication and workspace features require both services to be available.
 
@@ -270,7 +268,7 @@ Never commit `.env` files, production database URLs, passwords, or secret keys.
 
 ## 👤 Author
 
-**Uzaam Shaad K**
-
-- GitHub: https://github.com/uzaam07
-- Project: https://github.com/uzaam07/SyncSpace-collaborative-workspace
+- **Name:** Uzaam Shaad K
+- **GitHub:** [uzaam07](https://github.com/uzaam07)
+- **Portfolio:** [uzaam07.github.io](https://uzaam07.github.io/Portfolio/)
+- **LinkedIn:** [linkedin.com/in/uzaamshaad](https://linkedin.com/in/uzaamshaad)
