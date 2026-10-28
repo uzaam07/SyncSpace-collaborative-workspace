@@ -244,7 +244,6 @@ Free services may sleep after inactivity. Open the backend URL first, wait for i
 ## 🔎 API Documentation
 
 - Local: http://localhost:8000/docs
-- Deployed: https://syncspace-api-g4iu.onrender.com/docs
 
 Swagger UI lists the available routes, request schemas, and response formats.
 
